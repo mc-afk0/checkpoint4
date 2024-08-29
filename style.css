@@ -1,0 +1,56 @@
+.flexing{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    border: 1px solid gray ;
+    background-color: rgba(22, 20, 20, 0.066);
+    margin-top: 30px;
+    border-radius: 15px;
+    width: 100%;
+    height: 120%;
+    
+    
+
+}
+
+
+.flexing img{
+    width: 400px;
+    margin-top: 30px;
+}
+.flexing button{
+    width: 35px;
+    height: 35px;
+    background-color:  rgba(163, 163, 163, 0.46);
+    
+}
+.icon{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color:rgba(154, 154, 154, 0.9);
+    padding: 20px;
+    /* box-shadow: 10px 10px black; */
+}
+ /* .total span{
+    border: 1px solid black;
+   
+
+}  */
+.total svg{
+    width: 25px;
+    height:25px ;
+}
+.total{
+    margin-left: 46%;
+    margin-top: 25px;
+}
+.heart {
+    color: gray; 
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+ 
+  .heart.toggleHeart {
+    color: red; /* Color when favorited */
+  }
